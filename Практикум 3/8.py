@@ -1,0 +1,10 @@
+import math
+a = int(input())
+b = int(input())
+c = int(input())
+cos_a = -(a**2 - b**2 - c**2)/(2*b*c)
+cos_b = -(b**2 - a**2 - c**2)/(2*a*c)
+cos_c = -(c**2 - b**2 - a**2)/(2*b*a)
+print(math.degrees(math.acos(cos_a)))
+print(math.degrees(math.acos(cos_b)))
+print(math.degrees(math.acos(cos_c)))
